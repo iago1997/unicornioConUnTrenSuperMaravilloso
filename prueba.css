@@ -5,8 +5,8 @@ button{
     border-radius: 50%;
     border-color: #660000;
     text-align: center;
-    margin: auto;
-    margin-left: 18%;
+    top: 50%;
+    margin-left: 25%;
     
     outline:none;
    
@@ -14,7 +14,7 @@ button{
 
 input.fraseGoku{
     text-align: left;
-    margin-left: 10%;
+    margin-left: 15%;
     width: 215px;
     border: solid 0px black;
     
@@ -23,7 +23,7 @@ input.fraseGoku{
 input.fraseOruga{
     text-align: left;
     border: solid 0px black;
-    margin-left: 10%;
+    margin-left: 15%;
     width: 200px;
 }
 
@@ -31,7 +31,7 @@ input.fraseOruga{
 img {
     width: 40%;
     height: 40%;
-    margin-left: 18%;
+    margin-left: 25%;
     margin-top: 4%;
 }
 
