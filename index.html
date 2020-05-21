@@ -36,6 +36,7 @@
     <script>
 
         var image = new Image();
+        var image2 = new Image();
         let contador=1
         var v = document.getElementsByTagName("audio")[0];
         var sound = false;
@@ -46,9 +47,9 @@
            
            if(contador%2==0){
             //IMAGEN
-            var src = "oruga.png"; //Esta es la variable que contiene la url de una imagen ejemplo, luego puedes poner la que quieras
-            image.src = src;
-            document.getElementById("imagen2").append(image);
+            var src1 = "oruga.png"; //Esta es la variable que contiene la url de una imagen ejemplo, luego puedes poner la que quieras
+            image2.src = src1;
+            document.getElementById("imagen2").append(image2);
 
             //FRASE
             document.getElementById("texto1").value= "PEDORROOOOOOOOOO!!!"
